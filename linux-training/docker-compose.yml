@@ -1,0 +1,6 @@
+services:
+  linux-training:
+    build: .
+    container_name: linux-lab
+    stdin_open: true
+    tty: true
