@@ -5,11 +5,24 @@ RUN apt update && apt install -y \
     vim \
     curl \
     wget \
-    iputils-ping \
+    git \
+    python3 \
+    python3-pip \
+    jq \
+    tree \
+    htop \
+    iotop \
+    sysstat \
+    dnsutils \
+    traceroute \
+    tcpdump \
+    netcat-openbsd \
+    openssh-client \
+    iproute2 \
     net-tools \
     procps \
-    htop \
-    tree \
+    lsof \
+    ncdu \
     sudo
 
 RUN useradd -m aluno && \
