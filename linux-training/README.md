@@ -38,7 +38,7 @@ Acesse o site https://docs.docker.com/desktop/setup/install/windows-install/ e e
 Clone o repositório:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/WesleySantosC/Linux-Docker.git
 ```
 
 Entre no diretório:
